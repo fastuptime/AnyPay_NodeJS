@@ -1,0 +1,29 @@
+{
+  "name": "anypay-io",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles",
+    "example": "node examples.js"
+  },
+  "keywords": [
+    "payment",
+    "anypay",
+    "gateway"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Node.js integration for Anypay payment gateway",
+  "dependencies": {
+    "axios": "0.27.2",
+    "crypto": "^1.0.1",
+    "form-data": "^4.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nock": "^13.3.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
