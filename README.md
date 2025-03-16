@@ -5,19 +5,19 @@ Bu modül, [Anypay](https://anypay.io/) ödeme geçidi için Node.js entegrasyon
 ## Kurulum
 
 ```bash
-npm install anypay-io
+npm install anypay-node
 ```
 
 veya
 
 ```bash
-yarn add anypay-io
+yarn add anypay-node
 ```
 
 ## Hızlı Başlangıç
 
 ```javascript
-const { AnypayClient } = require('anypay-io');
+const { AnypayClient } = require('anypay-node');
 
 // AnypayClient örneği oluşturma
 const client = new AnypayClient({

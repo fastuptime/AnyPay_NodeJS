@@ -1,6 +1,6 @@
 {
-  "name": "anypay-io",
-  "version": "1.0.1",
+  "name": "anypay-node",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "scripts": {
     "test": "jest --detectOpenHandles",
